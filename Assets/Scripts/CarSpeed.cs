@@ -25,11 +25,11 @@ public class CarSpeed : MonoBehaviour
         {
             this.transform.position += new Vector3(0, 0, -taxiSpeed * Time.deltaTime);
         }
-        else if(carTypes == CarTypes.police)
+        else if (carTypes == CarTypes.police)
         {
-            this.transform.position += new Vector3 (0, 0, -policeSpeed * Time.deltaTime);
+            this.transform.position += new Vector3(0, 0, -policeSpeed * Time.deltaTime);
         }
-        else if(CarTypes.otobus == carTypes)
+        else if (CarTypes.otobus == carTypes)
         {
             this.transform.position += new Vector3(0, 0f, -otobusSpeed * Time.deltaTime);
         }
